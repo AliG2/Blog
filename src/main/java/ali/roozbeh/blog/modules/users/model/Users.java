@@ -17,7 +17,7 @@ public class Users {
     private String name;
     private String cover;
 
-    @Column(name = "created_at")
+    @Column(name = "created_att")
     private LocalDateTime createdAt;
 
     @Column(name = "updated_at")
