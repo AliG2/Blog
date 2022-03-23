@@ -1,6 +1,8 @@
 package ali.roozbeh.blog.modules.users.controller;
 
 
+import ali.roozbeh.blog.modules.users.model.Users;
+import ali.roozbeh.blog.modules.users.service.UsersService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -10,11 +12,12 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import javax.validation.Valid;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 @Controller
 @RequestMapping(value = "/users")
-public class usersController {
+public class UsersController {
 
         private UsersService usersService;
 
