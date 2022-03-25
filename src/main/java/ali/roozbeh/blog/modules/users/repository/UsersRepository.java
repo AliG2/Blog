@@ -1,6 +1,6 @@
 package ali.roozbeh.blog.modules.users.repository;
 
-import ir.arcademy.blog.modules.users.model.Users;
+import ali.roozbeh.blog.modules.users.model.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
