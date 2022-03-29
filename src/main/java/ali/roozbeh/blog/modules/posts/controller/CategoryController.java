@@ -1,4 +1,4 @@
-package modules.users.modules;
+package ali.roozbeh.blog.modules.posts.controller;
 
 //package ali.roozbeh.blog.modules.posts.controller;
 

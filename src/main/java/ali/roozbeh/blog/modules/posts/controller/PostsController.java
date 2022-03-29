@@ -1,4 +1,4 @@
-package modules.users.modules;
+package ali.roozbeh.blog.modules.posts.controller;
 
 import ali.roozbeh.blog.modules.posts.model.Posts;
 import ali.roozbeh.blog.modules.posts.service.CategoryService;

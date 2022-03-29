@@ -1,7 +1,8 @@
-package modules.users.modules;
+package ali.roozbeh.blog.modules.posts.model;
 
 
 
+import ali.roozbeh.blog.modules.posts.model.Category;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;

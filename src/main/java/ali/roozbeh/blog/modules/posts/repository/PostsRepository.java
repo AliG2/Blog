@@ -1,6 +1,7 @@
-package modules.users.modules;
+package ali.roozbeh.blog.modules.posts.repository;
 
 
+import ali.roozbeh.blog.modules.posts.model.Posts;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
