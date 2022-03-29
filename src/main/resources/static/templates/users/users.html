@@ -13,7 +13,7 @@
 
 <div class="container-fluid m-0 p-4">
 
-  <a class="mb-2 btn btn-primary" style="width: 100px" th:href="@{/users/register}">
+  <a class="mb-2 btn btn-primary" style="width: 100px" th:href="@{/static/templates/users/register}">
     NEW
   </a>
 
@@ -33,7 +33,7 @@
       <td th:text="${user.getName()}"></td>
       <td>
         <a class="btn btn-success" style="width: 80px"
-           th:href="@{/users/edit/{id}(id=${user.getId()})}">Edit</a>
+           th:href="@{/static/templates/users/edit/{id}(id=${user.getId()})}">Edit</a>
 
         <a class="btn btn-danger"
            data-toggle="modal"
@@ -60,7 +60,7 @@
               <div class="modal-footer">
                 <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
                 <a class="btn btn-danger"
-                   th:href="@{/users/delete/{id}(id=${user.getId()})}">Delete</a>
+                   th:href="@{/static/templates/users/delete/{id}(id=${user.getId()})}">Delete</a>
               </div>
             </div>
           </div>
