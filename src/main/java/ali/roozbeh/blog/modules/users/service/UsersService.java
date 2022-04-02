@@ -1,9 +1,8 @@
 package ali.roozbeh.blog.modules.users.service;
 
-import ir.arcademy.blog.MyBeanCopy;
-import ir.arcademy.blog.modules.users.model.Users;
-import ir.arcademy.blog.modules.users.repository.UsersRepository;
-import org.apache.commons.beanutils.BeanUtils;
+
+import ali.roozbeh.blog.modules.users.model.Users;
+import ali.roozbeh.blog.modules.users.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -22,7 +21,7 @@ import java.util.UUID;
 @Service
 public class UsersService {
 
-    private UsersRepository usersRepository;
+    private final UsersRepository usersRepository;
 
     @Autowired
     public UsersService(UsersRepository usersRepository) {
