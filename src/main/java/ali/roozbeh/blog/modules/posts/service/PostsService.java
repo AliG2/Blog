@@ -1,7 +1,4 @@
 package ali.roozbeh.blog.modules.posts.service;
-
-
-
 import ali.roozbeh.blog.MyBeanCopy;
 import ali.roozbeh.blog.modules.posts.model.Posts;
 import ali.roozbeh.blog.modules.posts.repository.PostsRepository;
