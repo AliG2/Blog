@@ -1,6 +1,7 @@
 package ali.roozbeh.blog.modules.users.model;
 
 import ali.roozbeh.blog.enums.Roles;
+import ali.roozbeh.blog.modules.posts.model.Posts;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
