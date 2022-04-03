@@ -2,6 +2,7 @@ package ali.roozbeh.blog.modules.posts.service;
 
 
 
+import ali.roozbeh.blog.MyBeanCopy;
 import ali.roozbeh.blog.modules.posts.model.Posts;
 import ali.roozbeh.blog.modules.posts.repository.PostsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ import java.util.UUID;
 @Service
 public class PostsService {
 
-    private PostsRepository postsRepository;
+    private final PostsRepository postsRepository;
 
     @Autowired
     public PostsService(PostsRepository postsRepository) {
