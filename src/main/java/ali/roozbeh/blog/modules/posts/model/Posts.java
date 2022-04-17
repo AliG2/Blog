@@ -2,11 +2,10 @@ package ali.roozbeh.blog.modules.posts.model;
 
 
 
-import ali.roozbeh.blog.modules.posts.model.Category;
+import ali.roozbeh.blog.modules.users.model.Users;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
-import ali.roozbeh.blog.modules.users.model.Users;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 import org.springframework.web.multipart.MultipartFile;
