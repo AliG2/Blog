@@ -1,6 +1,8 @@
-package modules.users.modules;
+package ali.roozbeh.blog.modules.posts.service;
 
 
+import ali.roozbeh.blog.modules.posts.model.Category;
+import ali.roozbeh.blog.modules.posts.repository.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

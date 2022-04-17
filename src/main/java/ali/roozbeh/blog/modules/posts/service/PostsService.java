@@ -1,27 +1,18 @@
-package modules.users.modules;
-
-
-
+package ali.roozbeh.blog.modules.posts.service;
 import ali.roozbeh.blog.MyBeanCopy;
-import ali.roozbeh.blog.modules.posts.model.Category;
 import ali.roozbeh.blog.modules.posts.model.Posts;
 import ali.roozbeh.blog.modules.posts.repository.PostsRepository;
-import ali.roozbeh.blog.modules.users.model.Users;
-import ali.roozbeh.blog.modules.users.repository.UsersRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ResourceUtils;
 
 import javax.transaction.Transactional;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.Objects;
@@ -30,7 +21,7 @@ import java.util.UUID;
 @Service
 public class PostsService {
 
-    private PostsRepository postsRepository;
+    private final PostsRepository postsRepository;
 
     @Autowired
     public PostsService(PostsRepository postsRepository) {

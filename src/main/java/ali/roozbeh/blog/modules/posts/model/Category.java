@@ -1,4 +1,4 @@
-package modules.users.modules;
+package ali.roozbeh.blog.modules.posts.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
