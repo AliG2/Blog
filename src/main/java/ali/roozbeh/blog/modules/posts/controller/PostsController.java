@@ -22,9 +22,9 @@ import java.util.List;
 @RequestMapping("/posts")
 public class PostsController {
 
-    private PostsService postsService;
-    private CategoryService categoryService;
-    private UsersService usersService;
+    private final PostsService postsService;
+    private final CategoryService categoryService;
+    private final UsersService usersService;
 
     @Autowired
     public PostsController(PostsService postsService, CategoryService categoryService, UsersService usersService) {
@@ -41,10 +41,7 @@ public class PostsController {
         return "posts/posts";
     }
 
-//    @RequestMapping(value = "/search", method = RequestMethod.GET)
-//    public @ResponseBody List<Posts> search(@ModelAttribute Posts posts) {
-//        return postsService.findBySearch(posts);
-//    }
+
 
     @RequestMapping(value = "/register", method = RequestMethod.GET)
     public String registerPage(Model model) {
